@@ -12,7 +12,7 @@ body {
     align-items: center;
   background-color: #FFF;
     display: flex;
-    font-family: 'Raleway', sans-serif;
+  
     flex-direction: column;
     justify-content: center;
     overflow: scroll;
@@ -30,7 +30,7 @@ div.page {
   font-size: 55px;
   font-weight: 900;
   line-height: 46px;
-  margin: 20 4 0px ;
+  margin: 250 500 0px ;
   text-align: left;
   line-height: 100%;
   text-shadow: 0px 2px 4px rgba(34,62,66,.75);
@@ -57,4 +57,44 @@ li a {
     display: block;
     width: 60px;
 
+}
+div.navbar{
+  line-height:46px;
+}
+a:link {
+    text-decoration: none;
+}
+a:link, a:visited {
+    background-color: #1C1B1B;
+    color: white;
+    padding: 14px 25px;
+    width: 80px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #1C1B1B;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 95%;
+}
+div.description{
+  margin:100 10 200 500px;
+  color:#FFE5FF;
+  font-family: 'Bellefair', serif;
+}
+div.icons{
+  margin:10 10 10 550px;
+}
+
+.resume {
+position: relative;
+right: 0;
 }
